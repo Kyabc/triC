@@ -5,3 +5,5 @@
 ## 内容
 ICPC 対策の勉強会
 ## 動的計画法 (DP) 入門
+- DP は Dynamic Programming の略
+  - Douteki Planning ではない
