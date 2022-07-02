@@ -3,7 +3,7 @@ INF = float('inf')
 n = int(input())
 h = list(map(int, input().split()))
 
-dp = [INF for i in range(n + 1)]
+dp = [INF for i in range(n)]
 dp[0] = 0
 dp[1] = dp[0] + abs(h[0] - h[1])
 
