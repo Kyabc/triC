@@ -8,7 +8,9 @@ vector<int> divisor(int n) {
     for (long long x = 1; x * x <= n; x++) {
         if (n % x == 0) {
             div.push_back(x);
-            div.push_back(n / x);
+            if (x != n / x) {
+                div.push_back(n / x);
+            }
         }
     }
     return div;

@@ -5,7 +5,8 @@ def divisor(n: int) -> list[int]:
     while x * x <= n:
         if n % x == 0:
             div.append(x)
-            div.append(n // x)
+            if n != n // x:
+                div.append(n // x)
         x += 1
     return div
 
